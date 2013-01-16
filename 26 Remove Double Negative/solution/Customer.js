@@ -1,6 +1,6 @@
-function Customer () {
-	this.nBalance = 0;
+function Customer() {
+    this.nBalance = 0;
 }
 Customer.prototype.isFlagged = function () {
-	return this.nBalance >= 30;
+    return this.nBalance >= 30;
 };

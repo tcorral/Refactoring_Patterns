@@ -1,6 +1,6 @@
-function Website () {
-	this.sTitle = '';
-	this.sDescription = '';
-	this.aPages = [];
-	this.bIsActive = false;
+function Website() {
+    this.sTitle = '';
+    this.sDescription = '';
+    this.aPages = [];
+    this.bIsActive = false;
 }

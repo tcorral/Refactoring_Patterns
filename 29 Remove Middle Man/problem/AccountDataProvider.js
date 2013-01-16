@@ -1,8 +1,6 @@
-function AccountDataProvider()
-{
+function AccountDataProvider() {
 
 }
-AccountDataProvider.prototype.getAccount = function(nId)
-{
-	// get account
+AccountDataProvider.prototype.getAccount = function (nId) {
+    // get account
 };

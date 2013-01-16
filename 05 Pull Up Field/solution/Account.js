@@ -1,3 +1,3 @@
-function Account () {
-	this.nMinimumBalance = 5;
+function Account() {
+    this.nMinimumBalance = 5;
 }

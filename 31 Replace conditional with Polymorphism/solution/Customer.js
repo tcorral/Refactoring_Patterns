@@ -1,4 +1,3 @@
-function Customer()
-{
-	this.nDiscountPercentage = 0;
+function Customer() {
+    this.nDiscountPercentage = 0;
 }

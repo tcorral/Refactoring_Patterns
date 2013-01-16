@@ -1,4 +1,4 @@
-function Cat () {
-	Animal.call( this );
+function Cat() {
+    Animal.call(this);
 }
 Cat.prototype = new Animal();

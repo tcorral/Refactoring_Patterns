@@ -1,3 +1,3 @@
-function Account () {
+function Account() {
 
 }

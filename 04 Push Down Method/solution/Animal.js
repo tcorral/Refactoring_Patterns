@@ -1,3 +1,3 @@
-function Animal () {
+function Animal() {
 
 }

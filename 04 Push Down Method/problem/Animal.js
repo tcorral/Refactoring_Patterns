@@ -1,6 +1,6 @@
-function Animal () {
+function Animal() {
 
 }
 Animal.prototype.bark = function () {
-	// code to bark
+    // code to bark
 };

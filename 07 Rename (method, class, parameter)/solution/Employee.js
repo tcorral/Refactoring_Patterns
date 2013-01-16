@@ -1,6 +1,6 @@
-function Employee () {
-	this.sFirstName = '';
+function Employee() {
+    this.sFirstName = '';
 }
 Employee.prototype.calculateHourlyPay = function () {
-	// code to calculate hourly payrate
+    // code to calculate hourly payrate
 };

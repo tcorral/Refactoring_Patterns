@@ -1,3 +1,3 @@
-function Vehicle () {
-	// Other methods
+function Vehicle() {
+    // Other methods
 }

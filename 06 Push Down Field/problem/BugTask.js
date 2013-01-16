@@ -1,4 +1,4 @@
-function BugTask () {
-	Task.call( this );
+function BugTask() {
+    Task.call(this);
 }
 BugTask.prototype = new Task();

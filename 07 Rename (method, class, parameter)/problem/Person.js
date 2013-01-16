@@ -1,6 +1,6 @@
-function Person () {
-	this.sFN = '';
+function Person() {
+    this.sFN = '';
 }
 Person.prototype.clcHrlyPR = function () {
-	// code to calculate hourly payrate
+    // code to calculate hourly payrate
 };

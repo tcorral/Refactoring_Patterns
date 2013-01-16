@@ -1,6 +1,6 @@
-function Registration () {
+function Registration() {
 
 }
-Registration.prototype.create = function ( nAmount, oStudent, aCourses, nCredits ) {
-	// do work
+Registration.prototype.create = function (nAmount, oStudent, aCourses, nCredits) {
+    // do work
 };

@@ -1,6 +1,6 @@
-function Customer () {
+function Customer() {
 
 }
-Customer.prototype.deductFromAccountBalance = function ( nAmount ) {
-	// deduct from balance.
+Customer.prototype.deductFromAccountBalance = function (nAmount) {
+    // deduct from balance.
 };

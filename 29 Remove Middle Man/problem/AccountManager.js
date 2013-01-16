@@ -1,8 +1,6 @@
-function AccountManager(oDataProvider)
-{
-	this.oDataProvider = oDataProvider;
+function AccountManager(oDataProvider) {
+    this.oDataProvider = oDataProvider;
 }
-AccountManager.prototype.getAccount = function(nId)
-{
-	return this.oDataProvider.getAccount(nId);
+AccountManager.prototype.getAccount = function (nId) {
+    return this.oDataProvider.getAccount(nId);
 };

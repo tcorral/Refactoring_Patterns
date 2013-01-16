@@ -1,4 +1,4 @@
-function Customer () {
-	this.aLateFees = [];
-	this.aVideos = [];
+function Customer() {
+    this.aLateFees = [];
+    this.aVideos = [];
 }

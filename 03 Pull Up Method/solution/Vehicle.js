@@ -1,6 +1,6 @@
-function Vehicle () {
+function Vehicle() {
 
 }
-Vehicle.prototype.turn = function ( oDirection ) {
-	// code here
+Vehicle.prototype.turn = function (oDirection) {
+    // code here
 };

@@ -1,7 +1,7 @@
-function RegistrationProcessor () {
+function RegistrationProcessor() {
 
 }
-RegistrationProcessor.prototype.processRegistration = function ( oClassRegistration ) {
-	oClassRegistration.create();
-	return oClassRegistration.nTotal;
+RegistrationProcessor.prototype.processRegistration = function (oClassRegistration) {
+    oClassRegistration.create();
+    return oClassRegistration.nTotal;
 };

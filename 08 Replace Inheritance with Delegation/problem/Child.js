@@ -1,4 +1,4 @@
-function Child () {
-	Sanitation.call( this );
+function Child() {
+    Sanitation.call(this);
 }
 Child.prototype = new Sanitation();

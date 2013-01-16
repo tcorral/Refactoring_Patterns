@@ -1,8 +1,6 @@
-function Consumer(oDataProvider)
-{
-	this.oDataProvider = oDataProvider;
+function Consumer(oDataProvider) {
+    this.oDataProvider = oDataProvider;
 }
-Consumer.prototype.get = function(nId)
-{
-	var oAccount = this.oDataProvider.getAccount(nId);
+Consumer.prototype.get = function (nId) {
+    var oAccount = this.oDataProvider.getAccount(nId);
 }

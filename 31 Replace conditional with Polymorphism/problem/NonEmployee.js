@@ -1,5 +1,4 @@
-function NonEmployee()
-{
-	Customer.call(this);
+function NonEmployee() {
+    Customer.call(this);
 }
 NonEmployee.prototype = new Customer();

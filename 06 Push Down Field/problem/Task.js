@@ -1,3 +1,3 @@
-function Task () {
-	this.sResolution = '';
+function Task() {
+    this.sResolution = '';
 }

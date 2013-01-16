@@ -1,9 +1,9 @@
-function Dog () {
+function Dog() {
 
 }
 Dog.prototype.eatFood = function () {
-	// eat some food
+    // eat some food
 };
 Dog.prototype.groom = function () {
-	// perform grooming
+    // perform grooming
 };

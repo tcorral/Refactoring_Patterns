@@ -1,6 +1,6 @@
-function InterfacePoliceCarFactory () {
+function InterfacePoliceCarFactory() {
 
 }
 InterfacePoliceCarFactory.prototype.create = function () {
-	throw new Error();
+    throw new Error();
 };

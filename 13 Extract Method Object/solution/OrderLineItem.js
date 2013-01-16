@@ -1,3 +1,3 @@
-function OrderLineItem () {
-	this.nPrice = 0;
+function OrderLineItem() {
+    this.nPrice = 0;
 }
