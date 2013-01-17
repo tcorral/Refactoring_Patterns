@@ -10,12 +10,12 @@ Order.prototype = (function()
 		{
 			return aOrderLines.concat();
 		},
-		addOrderLine: function()
+		addOrderLine: function(oOrderLine)
 		{
 			this.nOrderTotal += oOrderLine.nTotal;
 			aOrderLines.push(oOrderLine);
 		},
-		removeOrderLine: function()
+		removeOrderLine: function(oOrderLineItem)
 		{
 			var oOrderLine;
 			oOrderLine = aOrderLines.map(function (oOrder) {
