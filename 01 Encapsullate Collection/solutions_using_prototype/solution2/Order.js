@@ -1,4 +1,4 @@
-function Order2()
+function Order()
 {
     var aOrderLines = [];
     this.getOrderLines = function()
@@ -12,7 +12,7 @@ function Order2()
         aToConcat = null;
     };
 }
-Order2.prototype.addOrderLine = function (oOrderLine)
+Order.prototype.addOrderLine = function (oOrderLine)
 {
     var aOrderLines = [];
     this.nOrderTotal += oOrderLine.nTotal;
@@ -20,7 +20,7 @@ Order2.prototype.addOrderLine = function (oOrderLine)
     this.setOrderLines(aOrderLines);
     aOrderLines = null;
 };
-Order2.prototype.removeOrderLine = function(oOrderLineItem)
+Order.prototype.removeOrderLine = function(oOrderLineItem)
 {
     var aOrderLines = this.getOrderLines(),
         oOrderLine;
